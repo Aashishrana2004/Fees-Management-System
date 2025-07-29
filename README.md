@@ -22,3 +22,14 @@ A simple console-based application to manage student fee records using C++.
 ---
 
 ## 📋 Sample Menu
+--- Fees Management System ---
+1. Add Student
+2. Pay Fees
+3. Display Fee Status
+4. Display All Students
+5. Exit
+   
+---
+
+## 📌 License
+This project is open-source and free to use for educational purposes.
