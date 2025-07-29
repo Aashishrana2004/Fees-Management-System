@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// Structure to store student information
 struct Student {
     int id;
     string name;
@@ -13,7 +12,6 @@ struct Student {
     double remainingFees;
 };
 
-// Class to manage the student fees
 class FeesManagementSystem {
 private:
     vector<Student> students;
@@ -24,7 +22,6 @@ public:
         studentCount = 0;
     }
 
-    // Function to add a new student
     void addStudent() {
         Student newStudent;
         cout << "\nEnter Student ID: ";
@@ -43,7 +40,6 @@ public:
         cout << "Student added successfully!\n";
     }
 
-    // Function to pay fees
     void payFees() {
         int id;
         double amount;
@@ -74,8 +70,6 @@ public:
             cout << "Error: Student ID not found.\n";
         }
     }
-
-    // Function to display fee status of a specific student
     void displayFeeStatus() {
         int id;
         cout << "\nEnter Student ID to display fee status: ";
@@ -100,7 +94,6 @@ public:
         }
     }
 
-    // Function to display a summary of all students and their fees
     void displayAllStudents() {
         if (students.empty()) {
             cout << "\nNo students found.\n";
@@ -118,7 +111,6 @@ public:
         }
     }
 
-    // Function to display the main menu and handle user choices
     void menu() {
         int choice;
         do {
