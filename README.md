@@ -6,8 +6,7 @@ This is a simple console based Fees Management System written in C++ that allows
 📊 View individual student fee status
 📋 Display all students with their fee records
 
-📂 Features
-1. Add a new student with ID, name, and total fees
+📂 Features 1. Add a new student with ID, name, and total fees
 2. Record partial or full fee payments
 3. Automatically calculate remaining fees
 4. View fee status of individual students
@@ -19,7 +18,8 @@ Language: C++
 Input/Output: Standard Console (cin, cout)
 Data Structure: vector and struct
 
-📌 Sample Menu
+📌 Sample Menu 
+
 --- Fees Management System ---
 1. Add Student
 2. Pay Fees
